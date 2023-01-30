@@ -528,6 +528,7 @@ footer a{
     .blog-section{
         padding: 0 10%;
         
+        
      }
 
      .blog-section .btn{
@@ -536,7 +537,7 @@ footer a{
      }
 
     .container{
-        width: 50%;
+        width: 100%;
     }
 
     .links-container{
