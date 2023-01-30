@@ -40,7 +40,10 @@ body{
 .hero-image{
     background-image:url("image/hero.jpg");
     background-size:cover;
-    height: 100vh;
+    max-width:100%;
+    height:auto;
+    padding-bottom: 200px;
+    
 }
 
 nav{
@@ -147,7 +150,7 @@ h3{
     grid-row: 1;
     margin-bottom: 900px;
     transform:translateY(-50px);
-    margin-left: -310px;
+    margin-left: -210px;
     
 }
 
@@ -156,7 +159,7 @@ h3{
     grid-row: 1;
     margin-bottom: 900px;
     transform:translateY(160px);
-    margin-left: -220px;
+    margin-left: -120px;
     
 }
 
@@ -164,7 +167,7 @@ h3{
     grid-column: 3;
     grid-row: 1;
     transform:translateY(400px);
-    margin-left: -320px;
+    margin-left: -220px;
     margin-bottom: 900px;
     
 }
@@ -178,7 +181,9 @@ h3{
     
     background: var(--green-color);
     margin: 0;
-    height: 90vh;
+    max-width: 100%;
+    padding-bottom: 200px;
+    
     
 }
 
@@ -201,6 +206,7 @@ h3{
     padding: 50px 0;
     border-radius:28px;
     width: 50%;
+    
     
 }
 
