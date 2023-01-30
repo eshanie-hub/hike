@@ -283,6 +283,7 @@ footer a{
         width: 100%;
         margin: 0;
         overflow: hidden;
+        
     }
 
     .hero-image{
@@ -388,6 +389,7 @@ footer a{
 
 @media(max-width: 800px){
     
+    
     nav{
         display: none;
     }
@@ -396,7 +398,8 @@ footer a{
         display: flex;
     }
     h1{
-        font-size: 10rem; 
+        font-size: 5rem; 
+        
     }
     .menu-icon{
         cursor: pointer;
@@ -512,6 +515,16 @@ footer a{
         
 
     }
+
+    .blog-section{
+        padding: 0 10%;
+        
+     }
+
+     .blog-section .btn{
+        font-size: 100%;
+         
+     }
 
     .container{
         width: 50%;
